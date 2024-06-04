@@ -23,4 +23,7 @@
     /** Load Core Library **/
     Platform.Load('Core', '1.1');
 
+    /** Init WSProxy **/
+    var wsproxy = new Script.Util.WSProxy();
+
 </script>
